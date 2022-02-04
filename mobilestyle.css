@@ -1,0 +1,150 @@
+@media (max-width: 670px) {
+  .u-content-wrapper {
+    width: calc(100% - 32px);
+    margin: 0 auto;
+  }
+
+  .u-heading {
+    font-size: 28px;
+    padding-top: 40px;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    letter-spacing: 1.4px;
+  }
+
+  .u-text {
+    text-align: left;
+    margin-bottom: 32px;
+    font-size: 14px;
+  }
+  
+  
+  br {
+    display: none;
+  }
+  
+  .header {
+    height: 355px;
+    padding-top: 0;
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(img/header.png) 50%;
+    background-size: cover;
+  }
+
+
+  .header__nav__logo {
+    font-size: 24px; 
+  }
+
+  .header__title {
+    padding-top: 120px;
+    font-size: 64px;
+  }
+
+
+  .concept {
+    padding: 40px 0;
+    background: linear-gradient(#fff 75%, #ededed 25%);
+  }
+
+  .work {
+    position: relative;
+    padding: 40px 0 24px;
+  }
+
+
+  
+  .work__contents {
+    overflow-x: scroll;
+    overflow-y: visible;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: auto;
+    flex:0 0 80px;
+  }
+
+  .work__content {
+    min-width: 80vw;
+    width: 80vw;
+    padding-bottom: 40px;
+  }
+
+  .work__content:not(:last-of-type) {
+    margin-right: 24px;
+  }
+
+  .work__content:nth-of-type(2) {
+    margin-top: 0;
+  }
+
+  .work__content__img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 0px;
+  }
+
+  .florist {
+    background: #ededed 55%;
+  }
+    
+  .florist__intro {
+    padding: 40px 0;
+    overflow-x: scroll;
+    overflow-y: visible;
+    text-align: left;
+  }
+
+  .florist__content {
+    min-width: 80vw;
+    margin-bottom: 20px;
+  }
+
+  .florist__content img{
+    width: 100%;
+    margin-bottom: 0; 
+  }
+
+  .florist__content:not(:last-of-type) {
+    margin-right: 24px;
+  }
+
+  .shop-information {
+    padding: 40px 0;
+  }
+
+  .shop-information__contents {
+    display: block;
+    font-size: 14px;
+  }
+
+  .shop-information__img,
+  .shop-information__table {
+    width: 100%;  
+    max-height: 320px; 
+    -webkit-appearance: none; 
+  }
+  
+  .shop-information__table {
+    width: 100%;   
+  }
+  .shop-information__table br {
+    display: inline;
+  }
+
+ .contact {
+   height: 400px;
+ }
+
+ .contactform {
+   width: 280px;
+ }
+
+ .contactform::before {
+   left: 45px;
+ }
+
+ .contactform::after {
+   left: 50px
+ }
+}
